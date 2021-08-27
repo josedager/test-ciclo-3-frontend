@@ -1,0 +1,98 @@
+.jmdm-list_games{
+    margin: 10px 5px;
+
+    table{
+        width: 100%;
+        border: 6px solid #24943A;
+        background-color: #D4EED1;
+        text-align: center;
+        
+        thead, tfoot{
+            background: #24943A;
+            th{
+                color: #fff;
+            }
+        }
+
+        th, td{
+            border: 1px solid #24943A;
+            padding: 3px 2px;
+        }
+    }
+}
+
+.jmdm-new_game, .jmdm-update_game{
+    width: 100vw;
+    height: 90vh;
+
+    .jmdm-new_game_div, .jmdm-update_game_div{
+        min-width: 500px;
+        max-width: 500px;
+        background-color: #f2f2f2;
+        position: relative;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+
+        .jmdm-new_game_form, .jmdm-update_game_form{    
+            width: 100%;
+            display: block;
+            padding: 10px 10px;
+            box-sizing: border-box;
+
+            .jmdm-new_game_date, .jmdm-new_game_gol_local, .jmdm-new_game_gol_visitante,
+            .jmdm-update_game_date, .jmdm-update_game_gol_local, .jmdm-update_game_gol_visitante{
+                margin-bottom: 10px;
+                padding: 10px 10x;
+                input{
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                }                
+            }
+
+            .jmdm-new_game_local, .jmdm-new_game_visitante,
+            .jmdm-update_game_local, .jmdm-update_game_visitante{
+                margin-bottom: 10px;
+                padding: 10px 10x;
+                select{
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                } 
+                input{
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                }              
+            }
+          
+            .jmdm-new_game_buttons,
+            .jmdm-update_game_buttons{
+                margin-top: 20px;
+                .jmdm-new_game_button_new_game,
+                .jmdm-update_game_button_update_game{
+                    float: left;
+                    width: 49%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                    background-color: #00b0ff;
+                    margin-right: 9px;
+                }
+                .jmdm-new_game_button_return,
+                .jmdm-update_game_button_return{
+                    float: left;
+                    width: 49%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                    background-color: #ff6d00;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.jmdm-login{
+    width: 100vw;
+    height: 90vh;
+
+    .jmdm-login_div{
+        min-width: 500px;
+        max-width: 500px;
+        background-color: #f2f2f2;
+        position: relative;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+
+        .jmdm-login_form{    
+            width: 100%;
+            display: block;
+            padding: 10px 10px;
+            box-sizing: border-box;
+
+            .jmdm-login_user{
+                margin-bottom: 10px;
+                padding: 10px 10x;
+                input{
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                }                
+            }
+            .jmdm-login_password{
+                input{
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                }                
+            }
+            .jmdm-login_buttons{
+                margin-top: 20px;
+                .jmdm-login_button_login{
+                    width: 49%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                    background-color: #00b0ff;
+                    margin-right: 9px;
+                }
+                .jmdm-login_button_register{
+                    width: 49%;
+                    box-sizing: border-box;
+                    padding: 10px 13px;
+                    background-color: #ff6d00;
+                }
+            }
+        }
+    }
+}
